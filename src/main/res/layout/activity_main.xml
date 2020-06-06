@@ -6,23 +6,17 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <LinearLayout
+    <ConstraintLayout
         android:id="@+id/rootlayout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical"
-        tools:layout_editor_absoluteX="201dp"
-        tools:layout_editor_absoluteY="-58dp">
+        android:orientation="vertical">
 
         <Button
-            android:id="@+id/AddNewHeadline"
-            android:layout_width="wrap_content"
+            android:id="@+id/btn1"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:baselineAligned="false"
-            android:shadowColor="#FFFFFF"
             android:text="+" />
 
-    </LinearLayout>
-
-
+    </ConstraintLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
